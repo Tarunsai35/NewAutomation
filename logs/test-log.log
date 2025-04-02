@@ -754,3 +754,31 @@
 2025-04-02 13:35:07 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
 2025-04-02 13:35:07 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
 2025-04-02 13:35:08 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2025-04-03 00:51:34 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-03 00:51:38 [main] INFO  testcases.TC8_RemoveProductFromCart - WebDriver initialized for: chrome
+2025-04-03 00:51:40 [main] INFO  testcases.TC8_RemoveProductFromCart - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-03 00:51:40 [main] INFO  testcases.TC8_RemoveProductFromCart - Entered product name in serach box: MacBook
+2025-04-03 00:51:40 [main] INFO  testcases.TC8_RemoveProductFromCart - Clicked the search button.
+2025-04-03 00:51:40 [main] INFO  testcases.TC8_RemoveProductFromCart - product found in search result: MacBook
+2025-04-03 00:51:41 [main] INFO  testcases.TC8_RemoveProductFromCart - Selected product: MacBook
+2025-04-03 00:51:41 [main] INFO  testcases.TC8_RemoveProductFromCart - Clicked 'Add to Cart' for product: MacBook
+2025-04-03 00:51:41 [main] INFO  testcases.TC8_RemoveProductFromCart - Success message verified successfully
+2025-04-03 00:51:42 [main] INFO  testcases.TC8_RemoveProductFromCart - Clicked on CheckoutPage
+2025-04-03 00:51:42 [main] INFO  testcases.TC8_RemoveProductFromCart - Clicked On Remove Button
+2025-04-03 00:51:43 [main] INFO  testcases.TC8_RemoveProductFromCart - WebDriver quit and removed from ThreadLocal.
+2025-04-03 00:52:33 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-03 00:52:35 [main] INFO  testcases.TC8_RemoveProductFromCart - WebDriver initialized for: chrome
+2025-04-03 00:52:37 [main] INFO  testcases.TC8_RemoveProductFromCart - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-03 00:52:37 [main] INFO  testcases.TC8_RemoveProductFromCart - Entered product name in serach box: MacBook
+2025-04-03 00:52:37 [main] INFO  testcases.TC8_RemoveProductFromCart - Clicked the search button.
+2025-04-03 00:52:37 [main] INFO  testcases.TC8_RemoveProductFromCart - product found in search result: MacBook
+2025-04-03 00:52:38 [main] INFO  testcases.TC8_RemoveProductFromCart - Selected product: MacBook
+2025-04-03 00:52:38 [main] INFO  testcases.TC8_RemoveProductFromCart - Clicked 'Add to Cart' for product: MacBook
+2025-04-03 00:52:38 [main] INFO  testcases.TC8_RemoveProductFromCart - Success message verified successfully
+2025-04-03 00:52:39 [main] INFO  testcases.TC8_RemoveProductFromCart - Clicked on CheckoutPage
+2025-04-03 00:52:44 [main] INFO  testcases.TC8_RemoveProductFromCart - Clicked On Remove Button
+2025-04-03 00:52:45 [main] INFO  testcases.TC8_RemoveProductFromCart - WebDriver quit and removed from ThreadLocal.

@@ -26,6 +26,9 @@ public class ShoppingCartPage {
 
 	@FindBy(xpath = "//a[text()='Checkout']") // Checkout button
 	WebElement btnCheckout;
+	
+	@FindBy(xpath = "//button[@class='btn btn-danger']")
+	WebElement Crossbtn;
 
 	// Method to get the total price from the shopping cart
 	public String getTotalPrice() {
@@ -48,6 +51,14 @@ public class ShoppingCartPage {
 		} catch (Exception e) {
 			System.out.println("Unable to click Checkout button: " + e.getMessage());
 			return null;
+		}
+	}
+	
+	public void Removeproduct() {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(Crossbtn));
+		} catch (Exception e) {
+			System.out.println("Unable to remove product: " + e.getMessage());
 		}
 	}
 }

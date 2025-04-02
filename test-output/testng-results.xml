@@ -2,18 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-02T13:34:51 IST" name="TestSuite" finished-at="2025-04-02T13:35:08 IST" duration-ms="16815">
+  <suite started-at="2025-04-03T00:52:33 IST" name="TestSuite" finished-at="2025-04-03T00:52:45 IST" duration-ms="11894">
     <groups>
       <group name="Master">
-        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@655a5d9c]" name="testUserRegistration" class="testcases.TC1_Registration"/>
+        <method signature="TC8_RemoveProductFromCart.testRemoveItemsFromCart()[pri:0, instance:testcases.TC8_RemoveProductFromCart@4763c727]" name="testRemoveItemsFromCart" class="testcases.TC8_RemoveProductFromCart"/>
       </group> <!-- Master -->
-      <group name="Regression">
-        <method signature="TC1_Registration.testUserRegistration()[pri:0, instance:testcases.TC1_Registration@655a5d9c]" name="testUserRegistration" class="testcases.TC1_Registration"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-04-02T13:34:51 IST" name="windows-chrome" finished-at="2025-04-02T13:35:08 IST" duration-ms="16815">
-      <class name="testcases.TC1_Registration">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC1_Registration@655a5d9c]" started-at="2025-04-02T13:34:52 IST" name="setUp" finished-at="2025-04-02T13:34:57 IST" duration-ms="5410" status="PASS">
+    <test started-at="2025-04-03T00:52:33 IST" name="windows-chrome" finished-at="2025-04-03T00:52:45 IST" duration-ms="11894">
+      <class name="testcases.TC8_RemoveProductFromCart">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC8_RemoveProductFromCart@4763c727]" started-at="2025-04-03T00:52:33 IST" name="setUp" finished-at="2025-04-03T00:52:35 IST" duration-ms="1612" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUserRegistration()[pri:0, instance:testcases.TC1_Registration@655a5d9c]" started-at="2025-04-02T13:34:57 IST" name="testUserRegistration" finished-at="2025-04-02T13:35:07 IST" duration-ms="9946" status="PASS">
+        <test-method signature="testRemoveItemsFromCart()[pri:0, instance:testcases.TC8_RemoveProductFromCart@4763c727]" started-at="2025-04-03T00:52:35 IST" name="testRemoveItemsFromCart" finished-at="2025-04-03T00:52:44 IST" duration-ms="9039" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC1_Registration@655a5d9c]" started-at="2025-04-02T13:35:07 IST" name="tearDown" finished-at="2025-04-02T13:35:08 IST" duration-ms="585" status="PASS">
+        </test-method> <!-- testRemoveItemsFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC8_RemoveProductFromCart@4763c727]" started-at="2025-04-03T00:52:44 IST" name="tearDown" finished-at="2025-04-03T00:52:45 IST" duration-ms="792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC1_Registration -->
+      </class> <!-- testcases.TC8_RemoveProductFromCart -->
     </test> <!-- windows-chrome -->
   </suite> <!-- TestSuite -->
 </testng-results>

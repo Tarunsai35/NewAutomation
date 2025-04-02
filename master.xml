@@ -23,13 +23,14 @@
 		<parameter name="os" value="windows"/>
 		<parameter name="browser" value="chrome"/>
 		<classes>
-			<class name="testcases.TC1_Registration" />
+		<!-- 	<class name="testcases.TC1_Registration" />	-->
 			<!-- 	<class name="testcases.TC2_Login"/> -->
 			<!--<class name="testcases.TC3_Logout" />
 			<class name="testcases.TC4_SeachProduct" />
 			<class name="testcases.TC5_AddToCart" /> -->
 			<!--<class name="testcases.TC2_Loginddt"/>-->
 			<!--<class name="testcases.TC6_EndToEndTest"/> -->
+			<class name="testcases.TC8_RemoveProductFromCart"/>
 		</classes>
 	</test>
 	

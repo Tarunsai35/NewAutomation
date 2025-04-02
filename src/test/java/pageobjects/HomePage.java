@@ -34,6 +34,9 @@ public class HomePage {
 
 	@FindBy(xpath = "//div[@id='search']//button[@type='button']")
 	WebElement btnSearch;
+	
+	@FindBy(xpath = "//span[normalize-space()='Shopping Cart']")
+	WebElement lnkshoppingCart;
 
 	// Is HomePage exists?
 	public boolean isHomePageExists() {
@@ -93,6 +96,15 @@ public class HomePage {
 		} catch (Exception e) {
 			System.out.println("Exception occurred while clicking 'Search': " + e.getMessage());
 			return null;
+		}
+	}
+	
+	// Click "Shopping Cart" link
+	public void checkOutPage() {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(lnkshoppingCart)).click();
+		}catch (Exception e) {
+			System.out.println("Exception occurred while clicking 'shopping Cart': " + e.getMessage());
 		}
 	}
 }
