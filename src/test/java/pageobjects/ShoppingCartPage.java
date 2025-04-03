@@ -29,6 +29,12 @@ public class ShoppingCartPage {
 	
 	@FindBy(xpath = "//button[@class='btn btn-danger']")
 	WebElement Crossbtn;
+	
+	@FindBy(xpath = "//div[@id='content']//p[contains(text(),'Your shopping cart is empty!')]")
+	WebElement Confmessage;
+	
+	@FindBy(xpath = "//a[normalize-space()='Continue']")
+	WebElement btnContinue;
 
 	// Method to get the total price from the shopping cart
 	public String getTotalPrice() {
@@ -61,4 +67,28 @@ public class ShoppingCartPage {
 			System.out.println("Unable to remove product: " + e.getMessage());
 		}
 	}
+	
+	public String ConfMessage() {
+		try {
+			wait.until(ExpectedConditions.invisibilityOfAllElements(Confmessage));
+			String Message = Confmessage.getText();
+			return Message;
+		}catch (Exception e) {
+			System.out.println("Conformation message not Displayed"+e.getMessage());
+			return null;
+		}
+	}
+	
+	public void ClickOnContinue() {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(btnContinue));
+		}catch (Exception e) {
+			System.out.println("unable to click: "+e.getMessage());
+		}
+	}
+	
+	
+	
+	
+	
 }

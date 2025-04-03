@@ -67,6 +67,13 @@ public class TC8_RemoveProductFromCart extends BaseClass  {
 			shoppingCartPage.Removeproduct();
 			logger.info("Clicked On Remove Button");
 			
+			//10. Verify the "Your shopping cart is empty!" Message is display
+			String isEmptyMessageDisplayed = shoppingCartPage.ConfMessage();
+			 Assert.assertEquals(isSuccessMessageDisplayed, "Your shopping cart is empty!");
+			 logger.info("message verified successfully");
+			
+			 shoppingCartPage.ClickOnContinue();
+			
 		}else {
 			logger.error("Product not found in search result :"+ProductName);
 			Assert.fail("Prosuct not found in search");
