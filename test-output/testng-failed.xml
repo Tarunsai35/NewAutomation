@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testcases.TC6_EndToEndTest">
+      <class name="testcases.TC8_RemoveProductFromCart">
         <methods>
-          <include name="executeEndToEndTest"/>
+          <include name="testRemoveItemsFromCart"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.TC6_EndToEndTest -->
+      </class> <!-- testcases.TC8_RemoveProductFromCart -->
     </classes>
   </test> <!-- windows-chrome(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

@@ -60,10 +60,8 @@ public class TC8_RemoveProductFromCart extends BaseClass  {
 			//9. Click on Shopping cart and remove the items
 			homepage.checkOutPage();
 			logger.info("Clicked on CheckoutPage");
-			
-			Thread.sleep(5000);
-			
-			ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);
+						
+			ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);			// product not removing ----> recheck the code
 			shoppingCartPage.Removeproduct();
 			logger.info("Clicked On Remove Button");
 			
