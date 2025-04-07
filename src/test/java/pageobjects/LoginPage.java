@@ -30,6 +30,10 @@ public class LoginPage {
 
     @FindBy(xpath = "//input[@value='Login']")
     WebElement btnLogin;
+    
+    @FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
+    WebElement WarningMsg;
+    
 
     // Methods to interact with elements using explicit waits
     public void setEmail(String email) {
@@ -60,4 +64,19 @@ public class LoginPage {
             System.out.println("Login button not clickable: " + e.getMessage());
         }
     }
+    
+   public String isWarningMessage() {
+	   try {
+		   wait.until(ExpectedConditions.visibilityOf(WarningMsg));
+		   return WarningMsg.getText();
+	   }catch (Exception e) {
+		System.out.println("Error message not displayed"+e.getMessage());
+		return null;
+	}
+   }
+    
+    
+    
+    
+    
 }
