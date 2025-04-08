@@ -13,13 +13,17 @@
       </run>
     </groups>
     <classes>
-      <class name="testcases.TC8_RemoveProductFromCart">
+      <class name="testcases.TC2_Login">
         <methods>
-          <include name="testRemoveItemsFromCart"/>
+          <include name="VerifyLoginWithInvalidCredentials"/>
+          <include name="VerifyLoginWithInvalidEmailFormat"/>
           <include name="tearDown"/>
+          <include name="VerifyWithBlankCredential"/>
+          <include name="VerifyLoginWithInvalidPassword"/>
+          <include name="VerifyLoginWithInvalidEmail"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.TC8_RemoveProductFromCart -->
+      </class> <!-- testcases.TC2_Login -->
     </classes>
   </test> <!-- windows-chrome(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

@@ -1065,3 +1065,581 @@
 2025-04-07 23:23:57 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
 2025-04-07 23:23:58 [main] INFO  testcases.TC2_Login - Warning message is displayed
 2025-04-07 23:23:58 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2025-04-08 22:11:06 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-08 22:11:09 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2025-04-08 22:11:11 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:11:11 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:11:11 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:11:11 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:11:12 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:11:12 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:11:12 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:11:12 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2025-04-08 22:11:13 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2025-04-08 22:11:13 [main] INFO  testcases.TC2_Login - Clicked On 'Logout' button
+2025-04-08 22:11:13 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:11:14 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:11:14 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:11:14 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:11:14 [main] INFO  testcases.TC2_Login - Entered email: kumar1234@gmail.com
+2025-04-08 22:11:14 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:11:14 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:11:14 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:11:15 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:11:15 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:11:16 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:11:16 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:11:16 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:11:16 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 22:11:16 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 22:11:17 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:11:17 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:11:17 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:11:18 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:11:18 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:11:18 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:11:18 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:11:19 [main] INFO  testcases.TC2_Login - Entered New email: kumardd@gmail.com
+2025-04-08 22:11:19 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 22:11:19 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:11:19 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:11:20 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:11:20 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:11:20 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:11:20 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:11:20 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:11:21 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 22:11:21 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 22:11:21 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:11:21 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:11:22 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:11:22 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2025-04-08 22:21:16 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-08 22:21:18 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2025-04-08 22:21:20 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:21:20 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:21:21 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:21:21 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:21:21 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:21:21 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:21:22 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:21:22 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2025-04-08 22:21:22 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2025-04-08 22:21:22 [main] INFO  testcases.TC2_Login - Clicked On 'Logout' button
+2025-04-08 22:21:23 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:21:23 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:21:23 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:21:23 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:21:23 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar1234@gmail.com
+2025-04-08 22:21:23 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:21:24 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:21:24 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:21:24 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:21:24 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:21:25 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:21:25 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:21:25 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:21:25 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 22:21:25 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 22:21:25 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:21:25 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:21:26 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:21:26 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:21:26 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:21:27 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:21:27 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:21:27 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:21:27 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:21:27 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:21:27 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:21:28 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:21:28 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:21:28 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:21:29 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:21:29 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:21:29 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar@gmail.com
+2025-04-08 22:21:29 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:21:29 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:21:29 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:21:30 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:21:30 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2025-04-08 22:42:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-08 22:42:48 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2025-04-08 22:42:50 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:42:50 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:42:51 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:42:51 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:42:51 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:42:51 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:42:51 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:42:51 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2025-04-08 22:42:52 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2025-04-08 22:42:52 [main] INFO  testcases.TC2_Login - Clicked On 'Logout' button
+2025-04-08 22:42:53 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:42:53 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:42:53 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:42:53 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:42:53 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar1234@gmail.com
+2025-04-08 22:42:53 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:42:54 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:42:54 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:42:54 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:42:55 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:42:55 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:42:55 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:42:55 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 22:42:55 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 22:42:56 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:42:56 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:42:56 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:42:56 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:42:56 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:42:57 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:42:57 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:42:57 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:42:57 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:42:58 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:42:58 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:42:58 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:42:58 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:42:58 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:42:58 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:42:58 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:42:59 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar@gmail.com
+2025-04-08 22:42:59 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:42:59 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:42:59 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:42:59 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:43:00 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:43:00 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:43:00 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:43:00 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:43:00 [main] INFO  testcases.TC2_Login - Entered email: 
+2025-04-08 22:43:00 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:43:01 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:43:01 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:43:02 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:43:02 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:43:02 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:43:03 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:43:03 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:43:03 [main] INFO  testcases.TC2_Login - Entered email_format: kumardd
+2025-04-08 22:43:03 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:43:04 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:43:04 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:43:04 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:43:05 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2025-04-08 22:47:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-08 22:47:41 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2025-04-08 22:47:42 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:47:42 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:47:43 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:47:43 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:47:43 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:47:43 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:47:43 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:47:43 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2025-04-08 22:47:44 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2025-04-08 22:47:44 [main] INFO  testcases.TC2_Login - Clicked On 'Logout' button
+2025-04-08 22:47:44 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:47:44 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:47:45 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:47:45 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:47:45 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar1234@gmail.com
+2025-04-08 22:47:45 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:47:45 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:47:45 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:47:46 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:47:46 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:47:47 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:47:47 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:47:47 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 22:47:47 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 22:47:47 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:47:47 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:47:48 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:47:48 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:47:48 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:47:48 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:47:48 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:47:49 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:47:49 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:47:49 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:47:49 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:47:50 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:47:50 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:47:50 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:47:50 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:47:50 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:47:51 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar@gmail.com
+2025-04-08 22:47:51 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:47:51 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:47:51 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:47:51 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:47:52 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:47:52 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:47:52 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:47:52 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:47:52 [main] INFO  testcases.TC2_Login - Entered email: 
+2025-04-08 22:47:52 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:47:53 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:47:53 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:47:53 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:47:54 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:47:54 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:47:54 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:47:54 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:47:54 [main] INFO  testcases.TC2_Login - Entered email_format: kumardd
+2025-04-08 22:47:55 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:47:55 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:47:55 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:47:55 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:47:56 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2025-04-08 22:53:01 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-08 22:53:03 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2025-04-08 22:53:05 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:53:05 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:53:05 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:53:05 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:53:05 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:53:06 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:53:06 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:53:06 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2025-04-08 22:53:06 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2025-04-08 22:53:07 [main] INFO  testcases.TC2_Login - Clicked On 'Logout' button
+2025-04-08 22:53:07 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:53:07 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:53:07 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:53:07 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:53:08 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar123@gmail.com
+2025-04-08 22:53:08 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:53:08 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:53:08 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:53:08 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:53:09 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:53:09 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:53:09 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:53:09 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:53:09 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 22:53:10 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 22:53:10 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:53:10 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:53:10 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:53:10 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:53:11 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:53:11 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:53:11 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:53:11 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:53:11 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:53:12 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:53:12 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:53:12 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:53:12 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:53:13 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:53:13 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:53:13 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:53:13 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar@gmail.com
+2025-04-08 22:53:13 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:53:13 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:53:13 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:53:14 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:53:14 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:53:14 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:53:15 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:53:15 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:53:15 [main] INFO  testcases.TC2_Login - Entered email: 
+2025-04-08 22:53:15 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:53:15 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:53:15 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:53:16 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:53:16 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:53:16 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:53:17 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:53:17 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:53:17 [main] INFO  testcases.TC2_Login - Entered email_format: kumardd
+2025-04-08 22:53:17 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:53:18 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:53:18 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:53:18 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:53:18 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2025-04-08 22:57:08 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-08 22:57:10 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2025-04-08 22:57:12 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:57:12 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:57:12 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:57:12 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:57:13 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:57:13 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:57:13 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:57:13 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2025-04-08 22:57:13 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2025-04-08 22:57:14 [main] INFO  testcases.TC2_Login - Clicked On 'Logout' button
+2025-04-08 22:57:14 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:57:14 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:57:14 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:57:14 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:57:15 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar1234@gmail.com
+2025-04-08 22:57:15 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:57:15 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:57:15 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:57:15 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:57:16 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:57:16 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:57:16 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:57:16 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 22:57:16 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 22:57:17 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:57:17 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:57:17 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 22:57:17 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:57:17 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:57:18 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:57:18 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:57:18 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 22:57:19 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 22:57:19 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:57:19 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:57:20 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:57:20 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:57:20 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:57:20 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:57:20 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar@gmail.com
+2025-04-08 22:57:21 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:57:21 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:57:21 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:57:21 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:57:22 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:57:22 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:57:22 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:57:22 [main] INFO  testcases.TC2_Login - Entered email: 
+2025-04-08 22:57:22 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:57:22 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:57:22 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:57:24 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 22:57:24 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 22:57:24 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 22:57:24 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 22:57:24 [main] INFO  testcases.TC2_Login - Entered email_format: kumardd
+2025-04-08 22:57:24 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 22:57:25 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 22:57:25 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 22:57:26 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2025-04-08 23:13:03 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-08 23:13:06 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2025-04-08 23:13:08 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:13:08 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:13:08 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:13:08 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:13:09 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 23:13:09 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:13:09 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:13:09 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2025-04-08 23:13:10 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2025-04-08 23:13:10 [main] INFO  testcases.TC2_Login - Clicked On 'Logout' button
+2025-04-08 23:13:10 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:13:10 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:13:11 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:13:11 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:13:11 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar1234@gmail.com
+2025-04-08 23:13:11 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 23:13:11 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:13:11 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:13:12 [main] INFO  testcases.TC2_Login - Warning message is not displayed
+2025-04-08 23:13:12 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:13:12 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:13:12 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:13:12 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:13:13 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 23:13:13 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 23:13:13 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:13:13 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:13:14 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:13:14 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:13:14 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:13:14 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:13:14 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:13:15 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 23:13:15 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 23:13:15 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:13:15 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:13:16 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:13:16 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:13:16 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:13:17 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:13:17 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:13:17 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar@gmail.com
+2025-04-08 23:13:17 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:13:17 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:13:17 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:13:18 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:13:18 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:13:18 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:13:18 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:13:18 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:13:19 [main] INFO  testcases.TC2_Login - Entered email: 
+2025-04-08 23:13:19 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:13:19 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:13:19 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:13:20 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:13:20 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:13:20 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:13:20 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:13:20 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:13:21 [main] INFO  testcases.TC2_Login - Entered email_format: kumardd
+2025-04-08 23:13:21 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:13:21 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:13:21 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:13:21 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:13:22 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2025-04-08 23:17:21 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-08 23:17:23 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2025-04-08 23:17:25 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:17:25 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:17:25 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:17:25 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:17:25 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 23:17:26 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:17:26 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:17:26 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2025-04-08 23:17:26 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2025-04-08 23:17:27 [main] INFO  testcases.TC2_Login - Clicked On 'Logout' button
+2025-04-08 23:17:27 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:17:27 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:17:27 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:17:27 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:17:27 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar1234@gmail.com
+2025-04-08 23:17:27 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 23:17:28 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:17:28 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:17:28 [main] INFO  testcases.TC2_Login - Warning message is not displayed
+2025-04-08 23:17:28 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:17:28 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:17:29 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:17:29 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:17:29 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 23:17:29 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 23:17:30 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:17:30 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:17:30 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:17:30 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:17:30 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:17:30 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:17:30 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:17:31 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 23:17:31 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 23:17:32 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:17:32 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:17:32 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:17:32 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:17:32 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:17:32 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:17:32 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:17:33 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar@gmail.com
+2025-04-08 23:17:33 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:17:33 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:17:33 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:17:33 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:17:34 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:17:34 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:17:34 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:17:34 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:17:34 [main] INFO  testcases.TC2_Login - Entered email: 
+2025-04-08 23:17:34 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:17:35 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:17:35 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:17:35 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:17:35 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:17:36 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:17:36 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:17:36 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:17:36 [main] INFO  testcases.TC2_Login - Entered email_format: kumardd
+2025-04-08 23:17:36 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:17:37 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:17:37 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:17:37 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:17:37 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2025-04-08 23:26:00 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dines\git\NewAutomation\master.xml
+
+2025-04-08 23:26:02 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2025-04-08 23:26:05 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:26:05 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:26:05 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:26:05 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:26:05 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 23:26:05 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:26:06 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:26:06 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2025-04-08 23:26:06 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2025-04-08 23:26:07 [main] INFO  testcases.TC2_Login - Clicked On 'Logout' button
+2025-04-08 23:26:08 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:26:08 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:26:08 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:26:08 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:26:08 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar1234@gmail.com
+2025-04-08 23:26:08 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 23:26:08 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:26:08 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:26:09 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:26:09 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:26:10 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:26:10 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:26:10 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:26:10 [main] INFO  testcases.TC2_Login - Entered New email: kumar@gmail.com
+2025-04-08 23:26:10 [main] INFO  testcases.TC2_Login - Entered New password.
+2025-04-08 23:26:11 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:26:11 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:26:11 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:26:12 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:26:12 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:26:12 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:26:12 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:26:13 [main] INFO  testcases.TC2_Login - Entered email: kumardd@gmail.com
+2025-04-08 23:26:13 [main] INFO  testcases.TC2_Login - Entered Invalid password.
+2025-04-08 23:26:13 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:26:13 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:26:14 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:26:14 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:26:14 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:26:14 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:26:14 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:26:15 [main] INFO  testcases.TC2_Login - Entered Invalid email: kumar@gmail.com
+2025-04-08 23:26:15 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:26:15 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:26:15 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:26:15 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:26:16 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:26:16 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:26:17 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:26:17 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:26:17 [main] INFO  testcases.TC2_Login - Entered email: 
+2025-04-08 23:26:17 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:26:18 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:26:18 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:26:18 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:26:18 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2025-04-08 23:26:18 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2025-04-08 23:26:19 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2025-04-08 23:26:19 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2025-04-08 23:26:19 [main] INFO  testcases.TC2_Login - Entered email_format: kumardd
+2025-04-08 23:26:19 [main] INFO  testcases.TC2_Login - Entered password.
+2025-04-08 23:26:19 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2025-04-08 23:26:19 [main] INFO  testcases.TC2_Login - Verifying Warning Message is displayed...
+2025-04-08 23:26:20 [main] INFO  testcases.TC2_Login - Warning message is displayed
+2025-04-08 23:26:21 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
