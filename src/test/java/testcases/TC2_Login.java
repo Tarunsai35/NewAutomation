@@ -3,6 +3,8 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import pageobjects.ForgotPasswordPage;
+import pageobjects.ForgotPasswordPage;
 import pageobjects.HomePage;
 import pageobjects.LoginPage;
 import pageobjects.MyAccountPage;
@@ -17,7 +19,7 @@ import pageobjects.MyAccountPage;
 
 public class TC2_Login extends BaseClass {
 
-	@Test(groups = { "Sanity", "Master" }, priority = 1)
+	@Test(groups = { "Sanity",  }, priority = 1)
 	public void testLoginWithValidCredentials() {
 
 		// 1) Navigate to the application URL
@@ -66,7 +68,7 @@ public class TC2_Login extends BaseClass {
 	 * 4.Enter the Invalid password. 5.Click on ""Login."
 	 */
 
-	@Test(groups = "Master", priority = 2)
+	@Test(groups = "", priority = 2)
 	public void VerifyLoginWithInvalidCredentials() {
 
 		// 1) Navigate to the application URL
@@ -116,7 +118,7 @@ public class TC2_Login extends BaseClass {
 	 * password. 5.Click on ""Login""."
 	 */
 
-	@Test(groups = "Master", priority = 3)
+	@Test(groups = "", priority = 3)
 	public void VerifyLoginWithNonRegisterEmail() {
 
 		// 1) Navigate to the application URL
@@ -167,7 +169,7 @@ public class TC2_Login extends BaseClass {
 	 * ""Login""."
 	 */
 
-	@Test(groups = "Master", priority = 4)
+	@Test(groups = "", priority = 4)
 	public void VerifyLoginWithInvalidPassword() {
 
 		// 1) Navigate to the application URL
@@ -218,7 +220,7 @@ public class TC2_Login extends BaseClass {
 	 * ""Login""."
 	 */
 
-	@Test(groups = "Master", priority = 5)
+	@Test(groups = "", priority = 5)
 	public void VerifyLoginWithInvalidEmail() {
 		// 1) Navigate to the application URL
 		String applicationUrl = properties.getProperty("appURL");
@@ -267,7 +269,7 @@ public class TC2_Login extends BaseClass {
 	 * 3.Enter the blank password. 4.Click on ""Login""."
 	 */
 
-	@Test(groups = "Master", priority = 6)
+	@Test(groups = "", priority = 6)
 	public void VerifyWithBlankCredential() {
 		// 1) Navigate to the application URL
 		String applicationUrl = properties.getProperty("appURL");
@@ -316,7 +318,7 @@ public class TC2_Login extends BaseClass {
 	 * 3.Enter the blank password. 4.Click on ""Login""."
 	 */
 
-	@Test(groups = "Master", priority = 7)
+	@Test(groups = "", priority = 7)
 	public void VerifyLoginWithInvalidEmailFormat() {
 		// 1) Navigate to the application URL
 		String applicationUrl = properties.getProperty("appURL");
@@ -360,10 +362,40 @@ public class TC2_Login extends BaseClass {
 
 	}
 
+	/*
+	 * Verify the 'Forgot Password' link is visible and functional.
+	 * "1.Click on"" My Account "" 2.Click on Login Page. 3.Clicl on ""Forgot
+	 * Password"""
+	 */
 
+	@Test(groups = "Master", priority = 8)
+	public void VerifyForgotPassword() {
 
+		// 1) Navigate to the application URL
+		String applicationUrl = properties.getProperty("appURL");
+		driver.get(applicationUrl);
+		logger.info("Navigated to application URL: " + applicationUrl);
 
+		// 2) Navigate to the Login page from the Home page
+		HomePage homePage = new HomePage(driver);
+		homePage.clickMyAccount();
+		logger.info("Clicked on 'My Account' link.");
 
+		LoginPage loginPage = homePage.clickLogin();
+		logger.info("Clicked on 'Login' link, navigating to the Login Page.");
 
+		// 3) Perform Forgot Password Functionality
+		loginPage.forgetPassword();
+		logger.info("Clicked on Forget Password....");
+
+		// 4)Verify the "Forget Password" page exist
+		ForgotPasswordPage forgotPassword = new ForgotPasswordPage(driver);
+
+		logger.info("Verifying the 'Forgot Password' page is displayed...");
+		boolean isMyForgotPageDisplayed = forgotPassword.isForgotPasswordPageExist();
+
+		Assert.assertTrue(isMyForgotPageDisplayed, "Forgot page not displayed");
+		logger.info(" 'Forgot Password ' page is displayed.");
+	}
 
 }

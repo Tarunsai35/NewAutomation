@@ -1,73 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="7" total="8" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T23:26:00 IST" name="TestSuite" finished-at="2025-04-08T23:26:21 IST" duration-ms="20252">
+  <suite started-at="2025-04-14T21:30:22 IST" name="Default suite" finished-at="2025-04-14T21:30:22 IST" duration-ms="333">
     <groups>
       <group name="Master">
-        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:1, instance:testcases.TC2_Login@56f6d40b]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
-        <method signature="TC2_Login.VerifyLoginWithInvalidCredentials()[pri:2, instance:testcases.TC2_Login@56f6d40b]" name="VerifyLoginWithInvalidCredentials" class="testcases.TC2_Login"/>
-        <method signature="TC2_Login.VerifyLoginWithNonRegisterEmail()[pri:3, instance:testcases.TC2_Login@56f6d40b]" name="VerifyLoginWithNonRegisterEmail" class="testcases.TC2_Login"/>
-        <method signature="TC2_Login.VerifyLoginWithInvalidPassword()[pri:4, instance:testcases.TC2_Login@56f6d40b]" name="VerifyLoginWithInvalidPassword" class="testcases.TC2_Login"/>
-        <method signature="TC2_Login.VerifyLoginWithInvalidEmail()[pri:5, instance:testcases.TC2_Login@56f6d40b]" name="VerifyLoginWithInvalidEmail" class="testcases.TC2_Login"/>
-        <method signature="TC2_Login.VerifyWithBlankCredential()[pri:6, instance:testcases.TC2_Login@56f6d40b]" name="VerifyWithBlankCredential" class="testcases.TC2_Login"/>
-        <method signature="TC2_Login.VerifyLoginWithInvalidEmailFormat()[pri:7, instance:testcases.TC2_Login@56f6d40b]" name="VerifyLoginWithInvalidEmailFormat" class="testcases.TC2_Login"/>
+        <method signature="TC2_Login.VerifyForgotPassword()[pri:8, instance:testcases.TC2_Login@2cac4385]" name="VerifyForgotPassword" class="testcases.TC2_Login"/>
       </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC2_Login.testLoginWithValidCredentials()[pri:1, instance:testcases.TC2_Login@56f6d40b]" name="testLoginWithValidCredentials" class="testcases.TC2_Login"/>
-      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-04-08T23:26:00 IST" name="windows-chrome" finished-at="2025-04-08T23:26:21 IST" duration-ms="20252">
+    <test started-at="2025-04-14T21:30:22 IST" name="Default test" finished-at="2025-04-14T21:30:22 IST" duration-ms="333">
       <class name="testcases.TC2_Login">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Login@56f6d40b]" started-at="2025-04-08T23:26:01 IST" name="setUp" finished-at="2025-04-08T23:26:02 IST" duration-ms="1795" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC2_Login@2cac4385]" started-at="2025-04-14T21:30:22 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1744646422657" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\dines\AppData\Local\Temp\testng-eclipse--1345080597\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\dines\AppData\Local\Temp\testng-eclipse--1345080597\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithValidCredentials()[pri:1, instance:testcases.TC2_Login@56f6d40b]" started-at="2025-04-08T23:26:02 IST" name="testLoginWithValidCredentials" finished-at="2025-04-08T23:26:07 IST" duration-ms="4574" status="PASS">
+        <test-method signature="VerifyForgotPassword()[pri:8, instance:testcases.TC2_Login@2cac4385]" started-at="2025-04-14T21:30:22 IST" name="VerifyForgotPassword" finished-at="2025-04-14T21:30:22 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\dines\AppData\Local\Temp\testng-eclipse--1345080597\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'os' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\dines\AppData\Local\Temp\testng-eclipse--1345080597\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method signature="VerifyLoginWithInvalidCredentials()[pri:2, instance:testcases.TC2_Login@56f6d40b]" started-at="2025-04-08T23:26:07 IST" name="VerifyLoginWithInvalidCredentials" finished-at="2025-04-08T23:26:09 IST" duration-ms="1767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyLoginWithInvalidCredentials -->
-        <test-method signature="VerifyLoginWithNonRegisterEmail()[pri:3, instance:testcases.TC2_Login@56f6d40b]" started-at="2025-04-08T23:26:09 IST" name="VerifyLoginWithNonRegisterEmail" finished-at="2025-04-08T23:26:11 IST" duration-ms="2241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyLoginWithNonRegisterEmail -->
-        <test-method signature="VerifyLoginWithInvalidPassword()[pri:4, instance:testcases.TC2_Login@56f6d40b]" started-at="2025-04-08T23:26:11 IST" name="VerifyLoginWithInvalidPassword" finished-at="2025-04-08T23:26:14 IST" duration-ms="2184" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyLoginWithInvalidPassword -->
-        <test-method signature="VerifyLoginWithInvalidEmail()[pri:5, instance:testcases.TC2_Login@56f6d40b]" started-at="2025-04-08T23:26:14 IST" name="VerifyLoginWithInvalidEmail" finished-at="2025-04-08T23:26:15 IST" duration-ms="1938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyLoginWithInvalidEmail -->
-        <test-method signature="VerifyWithBlankCredential()[pri:6, instance:testcases.TC2_Login@56f6d40b]" started-at="2025-04-08T23:26:15 IST" name="VerifyWithBlankCredential" finished-at="2025-04-08T23:26:18 IST" duration-ms="2363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyWithBlankCredential -->
-        <test-method signature="VerifyLoginWithInvalidEmailFormat()[pri:7, instance:testcases.TC2_Login@56f6d40b]" started-at="2025-04-08T23:26:18 IST" name="VerifyLoginWithInvalidEmailFormat" finished-at="2025-04-08T23:26:20 IST" duration-ms="2262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyLoginWithInvalidEmailFormat -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC2_Login@56f6d40b]" started-at="2025-04-08T23:26:20 IST" name="tearDown" finished-at="2025-04-08T23:26:21 IST" duration-ms="488" status="PASS">
+        </test-method> <!-- VerifyForgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC2_Login@2cac4385]" started-at="2025-04-14T21:30:22 IST" name="tearDown" finished-at="2025-04-14T21:30:22 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC2_Login -->
-    </test> <!-- windows-chrome -->
-  </suite> <!-- TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

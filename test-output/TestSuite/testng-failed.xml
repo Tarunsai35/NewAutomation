@@ -15,12 +15,8 @@
     <classes>
       <class name="testcases.TC2_Login">
         <methods>
-          <include name="VerifyLoginWithInvalidCredentials"/>
-          <include name="VerifyLoginWithInvalidEmailFormat"/>
+          <include name="VerifyForgotPassword"/>
           <include name="tearDown"/>
-          <include name="VerifyWithBlankCredential"/>
-          <include name="VerifyLoginWithInvalidPassword"/>
-          <include name="VerifyLoginWithInvalidEmail"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testcases.TC2_Login -->
